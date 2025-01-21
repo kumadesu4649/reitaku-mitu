@@ -1,0 +1,133 @@
+.satuki1F {
+    position: relative;
+    max-width: 500px; /* 画像とコンテナの最大幅を設定 */
+    margin: 0 auto; /* 中央寄せ */
+}
+
+.satuki1F .background-image {
+    width: 100%;
+    max-width: 100%; /* 最大幅に従う */
+    height: auto; /* 縦横比を保持 */
+}
+
+/* 共通のボタンスタイル */
+.satuki1F .btn {
+    position: absolute;
+    color: white;
+    background-color: #d39165;
+    border-color: #493223;
+    transform: translate(-50%, -50%);
+}
+
+/* 各ボタンの位置とサイズ */
+#btn-3101 {
+    background-color: #905c54;
+    border-color: #533632;
+    width: 100px; 
+    height: 100px;
+    top: 90%;
+    left: 55%;
+}
+
+#btn-3102A {
+    width: 80px; 
+    height: 80px;
+    top: 56%;
+    left: 76%;
+}
+
+#btn-3102B {
+    width: 80px;
+    height: 80px;
+    top: 43%;
+    left: 76%;
+}
+
+#btn-3103 {
+    width: 85px;
+    height: 85px;
+    top: 29%;
+    left: 76%;
+}
+
+#btn-3104 {
+    width: 85px;
+    height: 85px;
+    top: 15%;
+    left: 76%;
+}
+
+#btn-Arena {
+    background-color: #905c54;
+    border-color: #533632;
+    width: 100px;
+    height: 100px;
+    top: 70%;
+    left: 17%;
+}
+
+#btn-Hall {
+    position: absolute;
+    background-color: #9ad6e9;
+    border-color: #7097a3;
+    color: white;
+    width: 95px;
+    height: 50px;
+    top: 77%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    font-size: 16px; /* 文字サイズを指定 */
+}
+
+#btn-hina1f {
+    position: absolute;
+    background-color: #81da4e;
+    border-color: #548836;
+    color: white;
+    width: 80px;
+    height: 100px;
+    top: 65%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    font-size: 16px; /* 文字サイズを指定 */
+}
+
+#btn-iStudio {
+    position: absolute;
+    background-color: #949291;
+    border-color: #444444;
+    color: white;
+    width: 95px;
+    height: 143px;
+    top: 40%;
+    left: 17%;
+    transform: translate(-50%, -50%);
+    font-size: 16px; /* 文字サイズを指定 */
+}
+
+
+#btn-Study {
+    position: absolute;
+    background-color: #949291;
+    border-color: #444444;
+    color: white;
+    width: 95px;
+    height: 143px;
+    top: 18%;
+    left: 17%;
+    transform: translate(-50%, -50%);
+    font-size: 16px; /* 文字サイズを指定 */
+}
+
+#btn-Lounge {
+    position: absolute;
+    background-color: #da97c0;
+    border-color: #58414f;
+    color: white;
+    width: 95px;
+    height: 50px;
+    top: 29%;
+    left: 47.5%;
+    transform: translate(-50%, -50%);
+    font-size: 12px; /* 文字サイズを指定 */
+}
