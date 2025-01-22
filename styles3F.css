@@ -20,7 +20,7 @@
 }
 
 /* 各ボタンの位置とサイズ */
-#btn-3201 {
+#btn-35 {
     width: 100px; 
     height: 100px;
     top: 41%;
@@ -48,17 +48,37 @@
     left: 79%;
 }
 
-#btn-3204 {
+#btn-seminar {
     width: 78px;
     height: 78px;
     top: 18%;
     left: 49.5%;
+    font-size: 11px; /* 文字サイズを指定 */
 }
 #btn-zimu{
     width: 78px;
     height: 78px;
     top: 78%;
     left: 79%;
+    font-size: 16px; /* 文字サイズを指定 */
+}
+#btn-kixyu{
+    width: 50px;
+    height: 50px;
+    top: 31%;
+    left: 49%;
+}
+#btn-kixyu2{
+    width: 90px;
+    height: 90px;
+    top: 66%;
+    left: 49%;
+}
+#btn-kixyu3{
+    width: 50px;
+    height: 50px;
+    top: 80%;
+    left: 49%;
 }
 #btn-hina1f {
     position: absolute;
@@ -79,8 +99,8 @@
     border-color: #444444;
     color: white;
     width: 95px;
-    height: 143px;
-    top: 40%;
+    height: 200px;
+    top: 38%;
     left: 20%;
     transform: translate(-50%, -50%);
     font-size: 16px; /* 文字サイズを指定 */
