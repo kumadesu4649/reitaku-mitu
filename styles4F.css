@@ -72,6 +72,14 @@
     font-size: 10px; /* 文字サイズを指定 */
 }
 
+#btn-89 {
+    width: 75px;
+    height: 75px;
+    top: 65%;
+    left: 28%;
+    font-size: 10px; /* 文字サイズを指定 */
+}
+
 #btn-hina1f {
     position: absolute;
     background-color: #81da4e;
