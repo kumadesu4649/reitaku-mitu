@@ -38,30 +38,30 @@
 #btn-pro2 {
     width: 80px;
     height: 80px;
-    top: 45%;
-    left: 77%;
+    top: 80%;
+    left: 71%;
     font-size: 12px; /* 文字サイズを指定 */
 }
 
 #btn-teacher {
     width: 85px;
     height: 85px;
-    top: 31%;
-    left: 77%;
+    top: 50%;
+    left: 76%;
 }
 
 #btn-1314 {
     width: 85px;
     height: 85px;
-    top: 17%;
-    left: 77%;
+    top: 22%;
+    left: 72%;
 }
 
 #btn-zemi {
-    width: 85px;
-    height: 85px;
-    top: 17%;
-    left: 50%;
+    width: 75px;
+    height: 75px;
+    top: 20%;
+    left: 49%;
 }
 
 #btn-hina1f {
