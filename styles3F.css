@@ -59,6 +59,7 @@
     height: 78px;
     top: 78%;
     left: 79%;
+    font-size: 16px; /* 文字サイズを指定 */
 }
 #btn-hina1f {
     position: absolute;
