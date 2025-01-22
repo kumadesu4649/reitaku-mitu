@@ -120,3 +120,175 @@
     transform: translate(-50%, -50%);
     font-size: 12px; /* 文字サイズを指定 */
 }
+
+
+.slide-panel {
+    position: fixed;
+    top: 150%;
+    transform: translateY(-50%);
+    width: 300%;
+    height: 50%; /* Add this line to change the height */
+    max-height: 50%; /* 固定高さ設定 */
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: top 0.5s ease-in-out;
+    overflow-y: auto; /* 垂直スクロールを有効にする */
+}
+
+.slide-panel.show {
+    top: 70%;
+}
+
+.slide-panel2 {
+    position: fixed;
+    top: 150%;
+    transform: translateY(-50%);
+    width: 300%;
+    height: 50%; /* Add this line to change the height */
+    max-height: 50%; /* 固定高さ設定 */
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: top 0.5s ease-in-out;
+    overflow-y: auto; /* 垂直スクロールを有効にする */
+}
+
+.slide-panel.show2 {
+    top: 70%;
+}
+
+.slide-panel3 {
+    position: fixed;
+    top: 150%;
+    transform: translateY(-50%);
+    width: 300%;
+    height: 50%; /* Add this line to change the height */
+    max-height: 50%; /* 固定高さ設定 */
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: top 0.5s ease-in-out;
+    overflow-y: auto; /* 垂直スクロールを有効にする */
+}
+
+.slide-panel.show3 {
+    top: 70%;
+}
+
+.slide-panel4 {
+    position: fixed;
+    top: 150%;
+    transform: translateY(-50%);
+    width: 300%;
+    height: 50%; /* Add this line to change the height */
+    max-height: 50%; /* 固定高さ設定 */
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: top 0.5s ease-in-out;
+    overflow-y: auto; /* 垂直スクロールを有効にする */
+}
+
+.slide-panel.show4 {
+    top: 70%;
+}
+
+
+.slide-panel5 {
+    position: fixed;
+    top: 150%;
+    transform: translateY(-50%);
+    width: 300%;
+    height: 50%; /* Add this line to change the height */
+    max-height: 50%; /* 固定高さ設定 */
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: top 0.5s ease-in-out;
+    overflow-y: auto; /* 垂直スクロールを有効にする */
+}
+
+.slide-panel.show5 {
+    top: 70%;
+}
+
+.slide-panel6 {
+    position: fixed;
+    top: 150%;
+    transform: translateY(-50%);
+    width: 300%;
+    height: 50%; /* Add this line to change the height */
+    max-height: 50%; /* 固定高さ設定 */
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: top 0.5s ease-in-out;
+    overflow-y: auto; /* 垂直スクロールを有効にする */
+}
+
+.slide-panel.show6 {
+    top: 70%;
+}
+
+.slide-panel7 {
+    position: fixed;
+    top: 150%;
+    transform: translateY(-50%);
+    width: 300%;
+    height: 50%; /* Add this line to change the height */
+    max-height: 50%; /* 固定高さ設定 */
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: top 0.5s ease-in-out;
+    overflow-y: auto; /* 垂直スクロールを有効にする */
+}
+
+.slide-panel.show7 {
+    top: 70%;
+}
+
+.slide-panel8 {
+    position: fixed;
+    top: 150%;
+    transform: translateY(-50%);
+    width: 300%;
+    height: 50%; /* Add this line to change the height */
+    max-height: 50%; /* 固定高さ設定 */
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: top 0.5s ease-in-out;
+    overflow-y: auto; /* 垂直スクロールを有効にする */
+}
+
+.slide-panel.show8 {
+    top: 70%;
+}
+
+.slide-panel9 {
+    position: fixed;
+    top: 150%;
+    transform: translateY(-50%);
+    width: 300%;
+    height: 50%; /* Add this line to change the height */
+    max-height: 50%; /* 固定高さ設定 */
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: top 0.5s ease-in-out;
+    overflow-y: auto; /* 垂直スクロールを有効にする */
+}
+
+.slide-panel.show9 {
+    top: 70%;
+}
+
+.slide-panel10 {
+    position: fixed;
+    top: 150%;
+    transform: translateY(-50%);
+    width: 300%;
+    height: 50%; /* Add this line to change the height */
+    max-height: 50%; /* 固定高さ設定 */
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: top 0.5s ease-in-out;
+    overflow-y: auto; /* 垂直スクロールを有効にする */
+}
+
+.slide-panel.show10 {
+    top: 70%;
+}
