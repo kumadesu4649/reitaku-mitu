@@ -15,14 +15,12 @@
     position: absolute;
     color: white;
     background-color: #d39165;
-    border-color: #493223;
     transform: translate(-50%, -50%);
 }
 
 /* 各ボタンの位置とサイズ */
 #btn-3101 {
     background-color: #905c54;
-    border-color: #533632;
     width: 100px; 
     height: 100px;
     top: 90%;
@@ -59,7 +57,6 @@
 
 #btn-Arena {
     background-color: #905c54;
-    border-color: #533632;
     width: 100px;
     height: 100px;
     top: 70%;
@@ -69,7 +66,6 @@
 #btn-Hall {
     position: absolute;
     background-color: #9ad6e9;
-    border-color: #7097a3;
     color: white;
     width: 95px;
     height: 50px;
@@ -77,12 +73,12 @@
     left: 55%;
     transform: translate(-50%, -50%);
     font-size: 16px; /* 文字サイズを指定 */
+    animation: wave 1.5s infinite; /* 波エフェクトのアニメーションを適用 */
 }
 
 #btn-hina1f {
     position: absolute;
     background-color: #81da4e;
-    border-color: #548836;
     color: white;
     width: 80px;
     height: 100px;
@@ -90,19 +86,19 @@
     left: 45%;
     transform: translate(-50%, -50%);
     font-size: 16px; /* 文字サイズを指定 */
+    animation: wave 1.5s infinite; /* 波エフェクトのアニメーションを適用 */
 }
 
 #btn-iStudio {
     position: absolute;
     background-color: #949291;
-    border-color: #444444;
     color: white;
     width: 95px;
     height: 143px;
     top: 40%;
     left: 17%;
     transform: translate(-50%, -50%);
-    font-size: 16px; /* 文字サイズを指定 */
+    font-size: 16px; /* 文字サイズを指  定 */
 }
 
 
@@ -122,7 +118,6 @@
 #btn-Lounge {
     position: absolute;
     background-color: #da97c0;
-    border-color: #58414f;
     color: white;
     width: 95px;
     height: 50px;
@@ -130,4 +125,14 @@
     left: 47.5%;
     transform: translate(-50%, -50%);
     font-size: 12px; /* 文字サイズを指定 */
+}
+
+
+@keyframes wave {
+    0% {
+        box-shadow: 0 0 0 0 rgba(255, 162, 0, 0.7); /* 初期状態の影 */
+    }
+    100% {
+        box-shadow: 0 0 0 20px rgba(0, 123, 255, 0); /* 波が広がるエフェクト */
+    }
 }
