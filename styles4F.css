@@ -27,32 +27,65 @@
     left: 71%;
 }
 
-#btn-3202A {
+#btn-pro1 {
     width: 80px;
     height: 80px;
-    top: 45%;
-    left: 77%;
+    top: 83%;
+    left: 49%;
+    font-size: 12px; /* 文字サイズを指定 */
 }
 
-#btn-3202B {
-    width: 85px;
-    height: 85px;
-    top: 31%;
-    left: 77%;
+#btn-pro2 {
+    width: 80px;
+    height: 80px;
+    top: 80%;
+    left: 71%;
+    font-size: 12px; /* 文字サイズを指定 */
 }
 
-#btn-3203 {
+#btn-teacher {
     width: 85px;
     height: 85px;
-    top: 17%;
-    left: 77%;
+    top: 50%;
+    left: 76%;
 }
 
-#btn-3204 {
+#btn-1314 {
     width: 85px;
     height: 85px;
-    top: 17%;
-    left: 50%;
+    top: 22%;
+    left: 72%;
+}
+
+#btn-zemi {
+    width: 75px;
+    height: 75px;
+    top: 20%;
+    left: 49%;
+}
+
+#btn-commons {
+    width: 75px;
+    height: 75px;
+    top: 55%;
+    left: 30%;
+    font-size: 10px; /* 文字サイズを指定 */
+}
+
+#btn-89 {
+    width: 75px;
+    height: 75px;
+    top: 68%;
+    left: 28%;
+    font-size: 16px; /* 文字サイズを指定 */
+}
+
+#btn-1012 {
+    width: 95px;
+    height: 95px;
+    top: 40%;
+    left: 25%;
+    font-size: 16px; /* 文字サイズを指定 */
 }
 
 #btn-hina1f {

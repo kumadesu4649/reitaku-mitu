@@ -49,11 +49,11 @@
 }
 
 #btn-seminar {
-    width: 78px;
-    height: 78px;
+    width: 90px;
+    height: 90px;
     top: 18%;
     left: 49.5%;
-    font-size: 11px; /* 文字サイズを指定 */
+    font-size: 16px; /* 文字サイズを指定 */
 }
 #btn-zimu{
     width: 78px;
@@ -71,15 +71,16 @@
 #btn-kixyu2{
     width: 90px;
     height: 90px;
-    top: 57%;
+    top: 62%;
     left: 49%;
     font-size: 11px; /* 文字サイズを指定 */
 }
 #btn-kixyu3{
     width: 70px;
     height: 70px;
-    top: 67%;
+    top: 74%;
     left: 49%;
+    font-size: 12px; /* 文字サイズを指定 */
 }
 #btn-hina1f {
     position: absolute;
