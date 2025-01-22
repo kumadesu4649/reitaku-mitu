@@ -69,6 +69,7 @@
     height: 75px;
     top: 50%;
     left: 30%;
+    font-size: 12px; /* 文字サイズを指定 */
 }
 
 #btn-hina1f {
