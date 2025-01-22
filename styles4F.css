@@ -1,0 +1,122 @@
+.satuki4F {
+    position: relative;
+    max-width: 500px; /* 画像とコンテナの最大幅を設定 */
+    margin: 0 auto; /* 中央寄せ */
+}
+
+.satuki4F .background-image {
+    width: 100%;
+    max-width: 100%; /* 最大幅に従う */
+    height: auto; /* 縦横比を保持 */
+}
+
+/* 共通のボタンスタイル */
+.satuki4F .btn {
+    position: absolute;
+    color: white;
+    background-color: #d39165;
+    border-color: #493223;
+    transform: translate(-50%, -50%);
+}
+
+/* 各ボタンの位置とサイズ */
+#btn-Lab1 {
+    width: 80px; 
+    height: 80px;
+    top: 70%;
+    left: 71%;
+}
+
+#btn-3202A {
+    width: 80px;
+    height: 80px;
+    top: 45%;
+    left: 77%;
+}
+
+#btn-3202B {
+    width: 85px;
+    height: 85px;
+    top: 31%;
+    left: 77%;
+}
+
+#btn-3203 {
+    width: 85px;
+    height: 85px;
+    top: 17%;
+    left: 77%;
+}
+
+#btn-3204 {
+    width: 85px;
+    height: 85px;
+    top: 17%;
+    left: 50%;
+}
+
+#btn-hina1f {
+    position: absolute;
+    background-color: #81da4e;
+    border-color: #548836;
+    color: white;
+    width: 80px;
+    height: 100px;
+    top: 71%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px; /* 文字サイズを指定 */
+}
+
+#btn-Sand {
+    position: absolute;
+    background-color: #949291;
+    border-color: #444444;
+    color: white;
+    width: 95px;
+    height: 143px;
+    top: 40%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-size: 16px; /* 文字サイズを指定 */
+}
+
+
+#btn-Fab {
+    position: absolute;
+    background-color: #949291;
+    border-color: #444444;
+    color: white;
+    width: 95px;
+    height: 143px;
+    top: 77%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-size: 13px; /* 文字サイズを指定 */
+}
+
+#btn-Lounge1 {
+    position: absolute;
+    background-color: #da97c0;
+    border-color: #58414f;
+    color: white;
+    width: 53px;
+    height: 65px;
+    top: 58%;
+    left: 27.5%;
+    transform: translate(-50%, -50%);
+    font-size: 12px; /* 文字サイズを指定 */
+}
+
+#btn-Lounge2 {
+    position: absolute;
+    background-color: #da97c0;
+    border-color: #58414f;
+    color: white;
+    width: 86px;
+    height: 65px;
+    top: 58%;
+    left: 67.5%;
+    transform: translate(-50%, -50%);
+    font-size: 12px; /* 文字サイズを指定 */
+}
