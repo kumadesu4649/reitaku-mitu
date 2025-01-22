@@ -65,7 +65,7 @@
 #btn-kixyu{
     width: 50px;
     height: 50px;
-    top: 31%;
+    top: 28%;
     left: 49%;
 }
 #btn-kixyu2{
@@ -73,10 +73,11 @@
     height: 90px;
     top: 66%;
     left: 49%;
+    font-size: 10x; /* 文字サイズを指定 */
 }
 #btn-kixyu3{
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     top: 80%;
     left: 49%;
 }
