@@ -64,6 +64,13 @@
     left: 49%;
 }
 
+#btn-commons {
+    width: 75px;
+    height: 75px;
+    top: 50%;
+    left: 30%;
+}
+
 #btn-hina1f {
     position: absolute;
     background-color: #81da4e;
