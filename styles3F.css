@@ -62,6 +62,24 @@
     left: 79%;
     font-size: 16px; /* 文字サイズを指定 */
 }
+#btn-kixyu{
+    width: 50px;
+    height: 50px;
+    top: 31%;
+    left: 49%;
+}
+#btn-kixyu2{
+    width: 90px;
+    height: 90px;
+    top: 66%;
+    left: 49%;
+}
+#btn-kixyu3{
+    width: 50px;
+    height: 50px;
+    top: 80%;
+    left: 49%;
+}
 #btn-hina1f {
     position: absolute;
     background-color: #81da4e;
