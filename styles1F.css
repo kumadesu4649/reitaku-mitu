@@ -27,7 +27,7 @@
     left: 55%;
 }
 
-#btn-3102A {
+#btn-3102 {
     width: 80px; 
     height: 80px;
     top: 56%;
@@ -73,7 +73,6 @@
     left: 55%;
     transform: translate(-50%, -50%);
     font-size: 16px; /* 文字サイズを指定 */
-    animation: wave 1.5s infinite; /* 波エフェクトのアニメーションを適用 */
 }
 
 #btn-hina1f {
@@ -86,7 +85,6 @@
     left: 45%;
     transform: translate(-50%, -50%);
     font-size: 16px; /* 文字サイズを指定 */
-    animation: wave 1.5s infinite; /* 波エフェクトのアニメーションを適用 */
 }
 
 #btn-iStudio {
@@ -127,36 +125,6 @@
     font-size: 12px; /* 文字サイズを指定 */
 }
 
-
-@keyframes wave {
-    0% {
-        box-shadow: 0 0 0 0 rgba(255, 162, 0, 0.7); /* 初期状態の影 */
-    }
-    100% {
-        box-shadow: 0 0 0 20px rgba(0, 123, 255, 0); /* 波が広がるエフェクト */
-    }
-}
-
-
-@keyframes wave3 {
-    0% {
-        box-shadow: 0 0 0 0 rgba(255, 162, 0, 0.7); /* 初期状態の影 */
-    }
-    100% {
-        box-shadow: 0 0 0 20px rgba(0, 123, 255, 0); /* 波が広がるエフェクト */
-    }
-}
-
-
-@keyframes wave3 {
-    0% {
-        box-shadow: 0 0 0 0 rgba(255, 162, 0, 0.7); /* 初期状態の影 */
-    }
-    100% {
-        box-shadow: 0 0 0 20px rgba(0, 123, 255, 0); /* 波が広がるエフェクト */
-    }
-}
-
 .slide-panel {
     position: fixed;
     top: 150%;
@@ -172,4 +140,191 @@
 
 .slide-panel.show {
     top: 70%;
+}
+
+.slide-panel2 {
+    position: fixed;
+    top: 150%;
+    transform: translateY(-50%);
+    width: 300%;
+    height: 50%; /* Add this line to change the height */
+    max-height: 50%; /* 固定高さ設定 */
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: top 0.5s ease-in-out;
+    overflow-y: auto; /* 垂直スクロールを有効にする */
+}
+
+.slide-panel.show2 {
+    top: 70%;
+}
+
+.slide-panel3 {
+    position: fixed;
+    top: 150%;
+    transform: translateY(-50%);
+    width: 300%;
+    height: 50%; /* Add this line to change the height */
+    max-height: 50%; /* 固定高さ設定 */
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: top 0.5s ease-in-out;
+    overflow-y: auto; /* 垂直スクロールを有効にする */
+}
+
+.slide-panel.show3 {
+    top: 70%;
+}
+
+.slide-panel4 {
+    position: fixed;
+    top: 150%;
+    transform: translateY(-50%);
+    width: 300%;
+    height: 50%; /* Add this line to change the height */
+    max-height: 50%; /* 固定高さ設定 */
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: top 0.5s ease-in-out;
+    overflow-y: auto; /* 垂直スクロールを有効にする */
+}
+
+.slide-panel.show4 {
+    top: 70%;
+}
+
+
+.slide-panel5 {
+    position: fixed;
+    top: 150%;
+    transform: translateY(-50%);
+    width: 300%;
+    height: 50%; /* Add this line to change the height */
+    max-height: 50%; /* 固定高さ設定 */
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: top 0.5s ease-in-out;
+    overflow-y: auto; /* 垂直スクロールを有効にする */
+}
+
+.slide-panel.show5 {
+    top: 70%;
+}
+
+.slide-panel6 {
+    position: fixed;
+    top: 150%;
+    transform: translateY(-50%);
+    width: 300%;
+    height: 50%; /* Add this line to change the height */
+    max-height: 50%; /* 固定高さ設定 */
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: top 0.5s ease-in-out;
+    overflow-y: auto; /* 垂直スクロールを有効にする */
+}
+
+.slide-panel.show6 {
+    top: 70%;
+}
+
+.slide-panel7 {
+    position: fixed;
+    top: 150%;
+    transform: translateY(-50%);
+    width: 300%;
+    height: 50%; /* Add this line to change the height */
+    max-height: 50%; /* 固定高さ設定 */
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: top 0.5s ease-in-out;
+    overflow-y: auto; /* 垂直スクロールを有効にする */
+}
+
+.slide-panel.show7 {
+    top: 70%;
+}
+
+.slide-panel8 {
+    position: fixed;
+    top: 150%;
+    transform: translateY(-50%);
+    width: 300%;
+    height: 50%; /* Add this line to change the height */
+    max-height: 50%; /* 固定高さ設定 */
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: top 0.5s ease-in-out;
+    overflow-y: auto; /* 垂直スクロールを有効にする */
+}
+
+.slide-panel.show8 {
+    top: 70%;
+}
+
+.slide-panel9 {
+    position: fixed;
+    top: 150%;
+    transform: translateY(-50%);
+    width: 300%;
+    height: 50%; /* Add this line to change the height */
+    max-height: 50%; /* 固定高さ設定 */
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: top 0.5s ease-in-out;
+    overflow-y: auto; /* 垂直スクロールを有効にする */
+}
+
+.slide-panel.show9 {
+    top: 70%;
+}
+
+.slide-panel10 {
+    position: fixed;
+    top: 150%;
+    transform: translateY(-50%);
+    width: 300%;
+    height: 50%; /* Add this line to change the height */
+    max-height: 50%; /* 固定高さ設定 */
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: top 0.5s ease-in-out;
+    overflow-y: auto; /* 垂直スクロールを有効にする */
+}
+
+.slide-panel.show10 {
+    top: 70%;
+}
+
+@keyframes wave {
+    0% {
+        box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.7); /* 初期状態の影 */
+    }
+    100% {
+        box-shadow: 0 0 0 20px rgba(0, 123, 255, 0); /* 波が広がるエフェクト */
+    }
+}
+    100% {
+        box-shadow: 0 0 0 20px rgba(0, 123, 255, 0); /* 波が広がるエフェクト */
+    }
+}
+
+
+@keyframes wave2 {
+    0% {
+        box-shadow: 0 0 0 0 rgba(255, 187, 0, 0.7); /* 初期状態の影 */
+    }
+    100% {
+        box-shadow: 0 0 0 20px rgba(0, 123, 255, 0); /* 波が広がるエフェクト */
+    }
+}
+
+
+@keyframes wave3 {
+    0% {
+        box-shadow: 0 0 0 0 rgba(94, 255, 0, 0.7); /* 初期状態の影 */
+    }
+    100% {
+        box-shadow: 0 0 0 20px rgba(0, 123, 255, 0); /* 波が広がるエフェクト */
+    }
 }
