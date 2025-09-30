@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MITUMAP</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+    body {
+        background-color: #f5f5f5;
+        font-family: 'Arial', sans-serif;
+    }
+    .navbar {
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .carousel-caption h2 {
+        font-family: 'Georgia', serif;
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 15px;
+        border-radius: 8px;
+    }
+    .carousel-indicators li {
+        background-color: #007bff;
+    }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white justify-content-center">
+        <a class="navbar-brand font-weight-bold" href="index.html"><i class="bi bi-tree-fill"></i>Reitaku-MituMap</a>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="card">
+            <div class="card-header">
+            <h2><i class="bi bi-exclamation-circle"></i>現在、サービスを停止しています。</h2>
+            <h5>再開時期未定 2024須永ゼミメンバーのみアクセスできます。</h5>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5"></div>
+        <div class="card">
+            <div class="card-header">
+                <h2><i class="bi bi-lock"></i> 管理者用ログイン</h2>
+            </div>
+            <div class="card-body">
+                <form action="admin_login.php" method="POST" onsubmit="return validateLogin()">
+                    <div class="form-group">
+                        <label for="username">ユーザー名</label>
+                        <input type="text" class="form-control" id="username" name="username" placeholder="ユーザー名を入力してください" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">パスワード</label>
+                        <input type="password" class="form-control" id="password" name="password" placeholder="パスワードを入力してください" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">ログイン</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function validateLogin() {
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            if (username === 'mitsu' && password === 'mitsumitsu') {
+                window.location.href = 'index-old.html';
+                return false; // Prevent form submission
+            } else {
+                alert('ユーザー名またはパスワードが間違っています。');
+                return false;
+            }
+        }
+    </script>
+
+    <!-- ページフッター-->            
+    <footer class="bg-light text-center text-lg-start mt-5">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Reitaku-MituMap</h5>
+                    <p>工学部須永ゼミ制作の休憩場所発見マップです。</p>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">連絡先</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="contact.html" class="text-dark">お問い合わせ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2025 Reitaku-MituMap
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <script src="
+</body>
+</html>
